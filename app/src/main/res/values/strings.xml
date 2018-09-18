@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ProyectoIntegrador</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Log in activity-->
+    <string name="login_emailhint">Ingresa tu email</string>
+    <string name="login_passhint">y tu contraseña</string>
+    <string name="login_textbutton">Entrar</string>
+    <string name="login_signup">¿No estás registrado? Púlsame</string>
+    <string name="login_empty">Este campo no debe estar vacío</string>
+    <!--Log in activity-->
+
+    <!--Sign Up fragment-->
+    <string name="signup_title">Regístrate aquí</string>
+    <string name="signup_usernamehint">Tu nombre de usuario va en este campo</string>
+    <string name="signup_emailhint">Tu email va en este campo</string>
+    <string name="signup_pass1hint">Tu contraseña aquí</string>
+    <string name="signup_pass2hint">Repite tu contraseña por favor</string>
+    <string name="signup_signtextbutton">Listo</string>
+    <string name="signup_emptyusername">Nombre de usuario vacío, es requerido</string>
+    <string name="signup_emptyemail">Email vacío, es requerido</string>
+    <string name="signup_emptypass">Contraseña vacía, es requerida</string>
+    <string name="signup_notequalspass">Contraseñas no son iguales</string>
+    <string name="title_activity_maps">Map</string>
+    <!--Sign Up fragment-->
+
+</resources>

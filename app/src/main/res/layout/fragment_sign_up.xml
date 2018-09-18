@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    tools:context=".Fragments.SignUpFragment">
+
+    <TextView
+        android:id="@+id/tvSignUpTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/signup_title"
+        android:textSize="28sp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilSignUpUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSignUpTitle"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietSignUpUsername"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_usernamehint"
+            android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilSignUpEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilSignUpUsername"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietSignUpEmail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_emailhint"
+            android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilSignUpPass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilSignUpEmail"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietSignUpPass1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_pass1hint"
+            android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilSignUpPass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilSignUpPass1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietSignUpPass2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_pass2hint"
+            android:inputType="textPassword" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilSignUpPass2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/signup_signtextbutton"
+        android:textSize="20dp"
+
+        />
+</RelativeLayout>
